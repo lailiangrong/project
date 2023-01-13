@@ -1,0 +1,159 @@
+@charset "utf-8";
+ 
+.b {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 9%;
+    background-color: yellow;
+    position: fixed;
+    height: 50%;
+    overflow: auto;
+    font-size: 15px;
+    top: 15%;
+  }
+
+  .a a {
+    display: block;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+
+  .a a.active {
+    background-color: burlywood;
+    color: white;
+  }
+
+*{margin:0;padding:0;box-sizing:border-box;
+}
+html body{font-size:14px;color:#be8a41;
+}
+a{color:#be8a41;text-decoration:none;
+}
+a:hover{color:#be8a41;text-decoration:underline;
+}
+ 
+
+.container{float:left;width:100%;background-color:#78d4ed;
+}
+ 
+
+.wrapper{width:1000px;margin:0 auto;overflow:hidden;background-color:#fff;
+}
+ 
+
+.header{float:left;width:1000px;height:110px;background-color:#fff673;
+}
+.header img{float:left;height:54px;margin:30px 10px 0 380px;
+}
+.header span{float:left;width:300px;height:110px;line-height:110px;font-size:40px;
+}
+ 
+.nav{float:left;width:1000px;height:35px;line-height:35px;background-color:#be8a41;
+}
+.nav a{float:left;width:90px;color:#fff;text-align:center;font-weight:bold;
+}
+ 
+
+.focus{float:left;width:1000px;height:440px;
+}
+.focus img{float:left;width:1000px;height:440px;
+}
+ 
+
+.title{float:left;width:1000px;height:30px;line-height:30px;margin-top:30px;font-size:24px;text-align:center;
+}
+ 
+
+.line{float:left;width:970px;margin:20px 0 0 15px;
+}
+.line img{float:right;width:475px;
+}
+.line p{float:left;width:480px;line-height:32px;
+}
+ 
+
+.list{float:left;width:477px;margin:20px 5px 0 15px;
+}
+.list img{float:left;width:220px;
+}
+.list h3{float:right;width:240px;height:20px;line-height:20px;
+}
+.list p{float:right;width:240px;line-height:27px;margin-top:5px;
+}
+ 
+.item{float:left;width:1000px;margin-top:20px;
+}
+.item p{float:left;width:149px;margin-left:15px;
+}
+.item p img{float:left;width:149px;height:210px;
+}
+.item p b{float:left;width:149px;height:30px;line-height:30px;text-align:center;background-color:#fff673;
+}
+ 
+
+audio{float:left;width:970px;height:28px;margin:25px 0 0 15px;outline:none;
+}
+ 
+
+.info{float:left;width:1000px;padding-bottom:15px;
+}
+.info h2{float:left;width:1000px;height:30px;line-height:30px;margin-top:25px;text-align:center;
+}
+.info img{float:right;width:305px;height:475px;margin:20px 20px 0 0;
+}
+.info p{float:left;width:310px;height:40px;line-height:40px;margin:15px 0 0 20px;border-bottom:1px dotted #cccccc;
+}
+.info p b{float:left;width:70px;height:40px;
+}
+.info p span{float:left;width:240px;height:40px;
+}
+ 
+
+.text{float:left;width:1000px;padding-bottom:15px;
+}
+.text h2{float:left;width:1000px;height:30px;line-height:30px;margin-top:25px;text-align:center;
+}
+.text img{float:left;width:900px;margin:20px 0 10px 50px;
+}
+.text video{float:left;width:900px;margin:20px 0 10px 50px;
+}
+.text p{float:left;width:900px;line-height:30px;margin-left:50px;text-indent:25px;
+}
+ 
+
+.person{float:left;width:1000px;padding-bottom:15px;
+}
+.person h2{float:left;width:1000px;height:30px;line-height:30px;margin-top:25px;text-align:center;
+}
+.person p{float:left;width:470px;margin:20px 0 0 20px;
+}
+.person p img{float:left;width:130px;height:180px;
+}
+.person p b{float:left;width:300px;height:20px;line-height:20px;margin-left:20px;
+}
+.person p span{float:left;width:300px;line-height:26px;margin:5px 0 0 20px;
+}
+ 
+
+.image{float:left;width:1000px;
+}
+.image h2{float:left;width:1000px;height:30px;line-height:30px;margin-top:25px;text-align:center;
+}
+.image img{float:left;width:425px;height:625px;margin:20px 0 30px 50px;
+}
+.into{float:left;width:1000px;padding:130px 0;
+}
+.into p{float:left;width:990px;height:66px;
+}
+.into p b{float:left;width:300px;height:65px;line-height:65px;text-align:right;
+}
+.into p input{float:left;width:330px;height:35px;margin:15px 0 0 20px;
+}
+.into p input.submit{color:#fff;letter-spacing:3px;background-color:#be8a41;border:0;
+}
+ 
+
+.footer{float:left;width:1000px;height:80px;line-height:80px;margin-top:20px;text-align:center;background-color:#fff673;
+}
